@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.808.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ducks_console", "ducks\ducks_console.csproj", "{149DFB40-FB88-4B54-A33B-C5E33E76D049}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "duck.objects", "duck.objects\duck.objects.csproj", "{D0A4EC1C-3043-4448-BBD2-C5C62872B8D0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "StrategyPattern", "StrategyPattern", "{3546E0CF-0249-4D9D-9A73-3481B8782A6F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{149DFB40-FB88-4B54-A33B-C5E33E76D049}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{149DFB40-FB88-4B54-A33B-C5E33E76D049}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{149DFB40-FB88-4B54-A33B-C5E33E76D049}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{149DFB40-FB88-4B54-A33B-C5E33E76D049}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0A4EC1C-3043-4448-BBD2-C5C62872B8D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0A4EC1C-3043-4448-BBD2-C5C62872B8D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0A4EC1C-3043-4448-BBD2-C5C62872B8D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0A4EC1C-3043-4448-BBD2-C5C62872B8D0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D95B2304-4EA9-4824-9DCC-EB8097C0E6D3}
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D0A4EC1C-3043-4448-BBD2-C5C62872B8D0} = {3546E0CF-0249-4D9D-9A73-3481B8782A6F}
+		{149DFB40-FB88-4B54-A33B-C5E33E76D049} = {3546E0CF-0249-4D9D-9A73-3481B8782A6F}
+	EndGlobalSection
+EndGlobal

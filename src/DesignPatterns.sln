@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.808.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "duck.objects", "duck.objects\duck.objects.csproj", "{D0A4EC1C-3043-4448-BBD2-C5C62872B8D0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "StrategyPattern", "StrategyPattern", "{3546E0CF-0249-4D9D-9A73-3481B8782A6F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ducks_console", "ducks\ducks\ducks_console.csproj", "{9BEF2D55-4972-46B6-B95B-BAFCE3EDC007}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DecoratorPattern", "DecoratorPattern", "{70F3C3D4-8FB8-4278-9EDF-AE39D614F4C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Starbuzz.Domain", "Starbuzz.Domain\Starbuzz.Domain.csproj", "{11F685D2-1CFB-4F46-B888-F7CE21A880DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Starbuzz.Console", "Starbuzz.Console\Starbuzz.Console.csproj", "{9BBAAF3A-5EF7-4E1A-A907-851C24A62F21}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{EC1B8AA7-4B7D-43B4-A614-CD033B0F87A4}"
+	ProjectSection(SolutionItems) = preProject
+		stylecop.json = stylecop.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D0A4EC1C-3043-4448-BBD2-C5C62872B8D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0A4EC1C-3043-4448-BBD2-C5C62872B8D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0A4EC1C-3043-4448-BBD2-C5C62872B8D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0A4EC1C-3043-4448-BBD2-C5C62872B8D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BEF2D55-4972-46B6-B95B-BAFCE3EDC007}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BEF2D55-4972-46B6-B95B-BAFCE3EDC007}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BEF2D55-4972-46B6-B95B-BAFCE3EDC007}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BEF2D55-4972-46B6-B95B-BAFCE3EDC007}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11F685D2-1CFB-4F46-B888-F7CE21A880DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11F685D2-1CFB-4F46-B888-F7CE21A880DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11F685D2-1CFB-4F46-B888-F7CE21A880DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11F685D2-1CFB-4F46-B888-F7CE21A880DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BBAAF3A-5EF7-4E1A-A907-851C24A62F21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BBAAF3A-5EF7-4E1A-A907-851C24A62F21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BBAAF3A-5EF7-4E1A-A907-851C24A62F21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BBAAF3A-5EF7-4E1A-A907-851C24A62F21}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D95B2304-4EA9-4824-9DCC-EB8097C0E6D3}
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D0A4EC1C-3043-4448-BBD2-C5C62872B8D0} = {3546E0CF-0249-4D9D-9A73-3481B8782A6F}
+		{9BEF2D55-4972-46B6-B95B-BAFCE3EDC007} = {3546E0CF-0249-4D9D-9A73-3481B8782A6F}
+		{11F685D2-1CFB-4F46-B888-F7CE21A880DB} = {70F3C3D4-8FB8-4278-9EDF-AE39D614F4C5}
+		{9BBAAF3A-5EF7-4E1A-A907-851C24A62F21} = {70F3C3D4-8FB8-4278-9EDF-AE39D614F4C5}
+	EndGlobalSection
+EndGlobal

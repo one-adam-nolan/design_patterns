@@ -9,9 +9,9 @@ namespace Starbuzz.Domain.Beverages
             this.Description = "Dark Roast Coffee";
         }
 
-        public override double Cost()
+        public override decimal Cost()
         {
-            return .89;
+            return .99m;
         }
     }
 }

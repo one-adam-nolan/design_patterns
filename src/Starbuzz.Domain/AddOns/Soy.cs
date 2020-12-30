@@ -13,9 +13,9 @@ namespace Starbuzz.Domain.AddOns
             this.beverage = beverage;
         }
 
-        public override double Cost()
+        public override decimal Cost()
         {
-            return this.beverage.Cost() + .15;
+            return this.beverage.Cost() + .15m;
         }
 
         public override string GetDescription()

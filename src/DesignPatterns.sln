@@ -13,7 +13,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DecoratorPattern", "Decorat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Starbuzz.Domain", "Starbuzz.Domain\Starbuzz.Domain.csproj", "{11F685D2-1CFB-4F46-B888-F7CE21A880DB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Starbuzz.Console", "Starbuzz.Console\Starbuzz.Console.csproj", "{9BBAAF3A-5EF7-4E1A-A907-851C24A62F21}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Starbuzz.App", "Starbuzz.Console\Starbuzz.App.csproj", "{9BBAAF3A-5EF7-4E1A-A907-851C24A62F21}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{EC1B8AA7-4B7D-43B4-A614-CD033B0F87A4}"
 	ProjectSection(SolutionItems) = preProject

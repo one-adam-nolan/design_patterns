@@ -9,9 +9,9 @@ namespace Starbuzz.Domain.Beverages
             this.Description = "Decaf Coffee";
         }
 
-        public override double Cost()
+        public override decimal Cost()
         {
-            return 1.05;
+            return 1.05m;
         }
     }
 }

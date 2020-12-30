@@ -18,9 +18,9 @@ namespace Starbuzz.Domain.AddOns
             return this.beverage.GetDescription() + MochaTag;
         }
 
-        public override double Cost()
+        public override decimal Cost()
         {
-            return this.beverage.Cost() + .20;
+            return this.beverage.Cost() + .20m;
         }
     }
 }

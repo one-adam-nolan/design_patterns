@@ -6,6 +6,6 @@
 
         public virtual string GetDescription() => this.Description;
 
-        public abstract double Cost();
+        public abstract decimal Cost();
     }
 }

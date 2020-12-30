@@ -10,9 +10,9 @@ namespace Starbuzz.Domain.Beverages
             this.Description = "Expresso";
         }
 
-        public override double Cost()
+        public override decimal Cost()
         {
-            return 1.99;
+            return 1.99m;
         }
     }
 }

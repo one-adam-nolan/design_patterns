@@ -7,3 +7,7 @@ Design Patterns exist and there are Pros and Cons to using them in various imple
 ## Strategy Pattern
 
 Code from the Duck example can be found [here](src/duck.objects).
+
+## Decorator Pattern
+
+Code for the Starbuzz Coffee can be found [here](src/Starbuzz.Domain).

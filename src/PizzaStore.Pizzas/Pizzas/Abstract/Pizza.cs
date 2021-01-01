@@ -1,4 +1,5 @@
 ﻿using System;
+
 namespace PizzaStore.Domain.Pizzas.Abstract
 {
     public abstract class Pizza
